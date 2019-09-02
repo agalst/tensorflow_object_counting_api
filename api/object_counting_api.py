@@ -310,7 +310,7 @@ def object_counting(input_video, detection_graph, category_index, is_color_recog
                     cv2.putText(input_frame, counting_mode, (10, 35), font, 0.8, (0,255,255),2,cv2.FONT_HERSHEY_SIMPLEX)
                 
                 output_movie.write(input_frame)
-                print ("writing frame")
+                #print ("writing frame")
                 #cv2.imshow('object counting',input_frame)
 
                 if cv2.waitKey(1) & 0xFF == ord('q'):
